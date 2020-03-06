@@ -10,9 +10,7 @@ import java.io.IOException;
 class SalesforceappApplicationTests {
 
     @Test
-    void contextLoads() throws IOException {
-        UserController ob=new UserController();
-        ob.getUserInfo();
+    void contextLoads() {
     }
 
 }
