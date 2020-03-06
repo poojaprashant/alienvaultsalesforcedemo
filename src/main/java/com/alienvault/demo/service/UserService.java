@@ -64,7 +64,7 @@ public class UserService {
        get.addHeader("Authorization","Bearer " + info.getAccess_token());
 
        response=client.execute(get);
-       System.out.println("executed Get request");
+       System.out.println("executed Get requests");
        HttpEntity entity=response.getEntity();
        result=EntityUtils.toString(response.getEntity());
 
